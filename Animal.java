@@ -36,31 +36,6 @@ public abstract class Animal {
     public String getOwnerName() {
         return ownerName;
     }
-
-    private void wakeUp(){
-        System.out.println("Animal is wakeup");
-    }
-
-    private void wakeUp(int time){
-        System.out.println("Animal is wakeup in " + time);
-    }
-
-    private void eat(){
-        System.out.println("Animal ate");
-    }
-
-    private void play(){
-        System.out.println("Animal played");
-    }
-
-    private void sleep(){
-        System.out.println("Animal sleeping");
-    }
-
-//    public abstract void lifeCircle();
-
-
-
     @Override
     public String toString() {
         return "Animal{" +
